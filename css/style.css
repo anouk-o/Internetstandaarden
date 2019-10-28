@@ -1,0 +1,64 @@
+* {
+    font-family: 'Comfortaa', cursive;
+}
+body {
+    margin: 5px;
+}
+/*--- Navigatie --*/
+.headingLogo {
+    border: 2px solid #000;
+    width: 8%;
+    position: absolute;
+    margin: 40px;
+    padding: 1%;
+}
+#mainNav{
+    text-align: center;
+    padding: 0.5em 0;
+}
+#mainNav li {
+    padding: 0.5rem;
+    display: inline;
+}
+#mainNav a:hover {
+    color: lightpink;
+}
+#mainNav a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*--- Artikelen --*/
+#mainSection {
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#mainSection h2{
+    width: 100%;
+    text-align: center;
+}
+#mainSection article{
+    position: relative;
+    margin: 5px;
+    padding: 10px;
+}
+#mainSection article h3{
+    position: absolute;
+    bottom: -16px;
+    background-color: #fadde2;
+    color: #000;
+    margin: 5%;
+}
+#mainSection article ul p{
+    font-weight: bold;
+}
+.mainArticle {
+    border: 2px solid #000;
+}
+
+/*--- Footer --*/
+footer{
+    padding: 1%;
+    margin-left: 22px;
+}
